@@ -9,6 +9,7 @@ The following variations of the neural network were tried out and the correspond
 
 The following choices were made:
 • Number of nodes in configurations with 2 hidden layers: (600, 100)
+
 • Number of nodes in configurations with 3 hidden layers (600, 50, 50)
 • Adam Learning Rate: 0.001 (default)
 • SGD Learning Rate: 0.01 (default)
