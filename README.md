@@ -15,7 +15,7 @@ The following choices were made:
 • Number of Epochs: always started with 10, then increased as necessary
 • Batch Size: 128
 • Loss Function: Sparse Categorical Cross Entropy
-• Metrics: Accuracy
+• Metrics: Accuracy 
 
 Results can be summarized in the following 2 tables:
 
