@@ -8,11 +8,15 @@ The following variations of the neural network were tried out and the correspond
 3. Activation Function for Hidden Layers (AF): ReLU vs Sigmoid
 
 The following choices were made:
+
 • Number of nodes in configurations with 2 hidden layers: (600, 100)
 
 • Number of nodes in configurations with 3 hidden layers (600, 50, 50)
+
 • Adam Learning Rate: 0.001 (default)
+
 • SGD Learning Rate: 0.01 (default)
+
 • Number of Epochs: always started with 10, then increased as necessary
 • Batch Size: 128
 • Loss Function: Sparse Categorical Cross Entropy
