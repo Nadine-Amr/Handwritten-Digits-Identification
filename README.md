@@ -1,4 +1,6 @@
 # Handwritten-Digits-Identification
+## Handwritten-Digits-Identification
+
 
 Using Keras, a fully-connected neural network was used to classify handwritten digits from the MNIST dataset (http://yann.lecun.com/exdb/mnist/). 
 
@@ -18,8 +20,11 @@ The following choices were made:
 • SGD Learning Rate: 0.01 (default)
 
 • Number of Epochs: always started with 10, then increased as necessary
+
 • Batch Size: 128
+
 • Loss Function: Sparse Categorical Cross Entropy
+
 • Metrics: Accuracy 
 
 Results can be summarized in the following 2 tables:
