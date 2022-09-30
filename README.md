@@ -1,14 +1,14 @@
 # Handwritten-Digits-Identification
-## Handwritten-Digits-Identification
-
 
 Using Keras, a fully-connected neural network was used to classify handwritten digits from the MNIST dataset (http://yann.lecun.com/exdb/mnist/). 
 
+## Model Variations
 The following variations of the neural network were tried out and the corresponding training and testing accuracies were recorded:
 1. Number of Hidden Layers (HL): 2 vs 3
 2. Gradient Descent Method (GD): Adam vs Stochastic Gradient Descent
 3. Activation Function for Hidden Layers (AF): ReLU vs Sigmoid
 
+## Model Choices
 The following choices were made:
 
 • Number of nodes in configurations with 2 hidden layers: (600, 100)
@@ -27,6 +27,7 @@ The following choices were made:
 
 • Metrics: Accuracy 
 
+## Results
 Results can be summarized in the following 2 tables:
 
 ![image](https://user-images.githubusercontent.com/25527107/193187820-10f671a4-e0c1-4f06-8cbf-22e100d1d699.png)
